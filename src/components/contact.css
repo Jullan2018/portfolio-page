@@ -9,11 +9,35 @@
 .contact-heading
 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 15%;
-    margin-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    margin-left: 3%;
     justify-content: space-between;
     text-transform: uppercase;
     color:#ecf0f1;
     font-size: 4vw;
+}
+.info
+{
+   display: flex;
+   justify-content: center;
+   gap: 5rem;
+  
+}
+.contactinfo1
+{
+    background-color: #10ac84;
+    border-radius: 10px;
+    padding: 2% 2% 2% 2%;
+}
+.contactinfo2
+{
+    background-color: #10ac84;
+    border-radius: 10px;
+    padding: 2% 6% 2% 6%;
+}
+.contact-subheading
+{
+    font-size:21px;
+    padding-bottom: 5%;
 }

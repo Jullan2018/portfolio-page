@@ -1,6 +1,7 @@
 import React,{Component} from "react";
 import {Link} from 'react-scroll';
 
+
 export default class Nav extends Component {
     render() {
         return (
@@ -22,6 +23,7 @@ export default class Nav extends Component {
                     <Link to="contact" spy={true} smooth={true}>Contact</Link>
                 </li>
             </ul>
+            
             </div>   
         )
     }
