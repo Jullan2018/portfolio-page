@@ -1,3 +1,0 @@
-# Jullan Quevedo - Portfolio Page
-
-
