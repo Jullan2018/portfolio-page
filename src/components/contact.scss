@@ -1,0 +1,84 @@
+.container-4
+{
+    justify-content: space-between;
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+}
+.contact-heading
+{
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 3%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color:#ecf0f1;
+    font-size: 4vw;
+}
+.info
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   text-align: center;
+   justify-content:center;
+   gap:5rem;
+
+   
+  
+}
+.mail-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10ac84;
+    border-radius: 10px;
+    color:#ecf0f1;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 24px;
+
+}
+
+.phone-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10ac84;
+    color:#ecf0f1;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 24px;
+}
+
+
+.contact-subheading
+{
+    font-size:21px;
+    padding-bottom: 5%;
+    text-align: center;
+    color:#ecf0f1;
+
+}
+@media only screen and (max-width: 1200px) 
+{
+    .info
+    {
+        grid-template-columns: 1fr ;
+    }
+}
+@media only screen and (max-width: 400px) 
+{
+    .info
+    {
+        grid-template-columns: 1fr ;
+    }
+    .contact-subheading{
+        font-size:16px;
+    }
+    .contact-heading{
+        font-size: 50px;
+    }
+}

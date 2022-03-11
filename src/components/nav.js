@@ -9,6 +9,7 @@ export default class Nav extends Component {
         <div class="logo">
         <h1>JQuevedo</h1>
         </div>
+            <div class="nav">
             <ul>
                 <li>
                     <Link activeClass="active" to="home" spy={true} smooth={true} >Home</Link>
@@ -23,7 +24,7 @@ export default class Nav extends Component {
                     <Link to="contact" spy={true} smooth={true}>Contact</Link>
                 </li>
             </ul>
-            
+            </div>
             </div>   
         )
     }
